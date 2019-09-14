@@ -62,6 +62,7 @@ font-family: 'Sacramento', cursive;
 .header-couple-names {
     font-family: 'Sacramento', cursive;
     color: #f14e95;
+	font-weight: bold;
     font-size: 70px;
   }
 
