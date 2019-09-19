@@ -582,6 +582,24 @@ font-family: 'Sacramento', cursive;
     right: auto;
   }
   
+
+.timeline > li.timeline-center > .timeline-panel {
+    float: center;
+  }
+  .timeline > li.timeline-center > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 0;
+    left: auto;
+    right: auto;
+  }
+  .timeline > li.timeline-center > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 0;
+    left: auto;
+    right: auto;
+  }
+
+
   .timeline-title {
     margin-top: 0;
   }
@@ -621,6 +639,10 @@ font-family: 'Sacramento', cursive;
     }
   
     ul.timeline > li > .timeline-panel {
+      float: right;
+    }
+
+     ul.timeline > li > .timeline-center {
       float: right;
     }
   
